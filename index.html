@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/produtos/letra-m.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Meta Suplementos</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- modelos de pizza na lista e no carrinho -->
+    <div class="models">
+
+        <!-- pizza na lista -->
+        <div class="pizza-item">
+            <a href="">
+                <div class="pizza-item--img"><img src=""></div>
+                <div class="pizza-item--add">+</div>
+            </a>
+            <div class="pizza-item--price">R$ --</div>
+            <div class="pizza-item--name">--</div>
+            
+        </div>
+
+        <!-- pizza no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <img src="images/produtos/meta suplementos (1).png" class="logo" alt="">
+        <div class="menu-openner">
+            <img class="carrin" src="images/produtos/carrinho.png" alt=""><span class="numerozinho">0</span></div>
+    </header>
+    <!-- /menu-openner -->
+    <!--banner-->
+   
+    <!-- conteudo principal -->
+    <main>
+        <div class="banner">
+        <img class="imgB" src="./images/produtos/BANNER META.png" alt="">
+        </div>
+        <h2 class="aga2">Combos</h2>
+        <div class="combos-area">
+        </div>
+        <h2 class="aga2">Produtos</h2>
+        
+        <div class="suplementos-area">
+        </div>
+
+        <footer>
+            <div class="main-content">
+                <div class="left box">
+                    <h2> Sobre nós</h2>
+                    <div class="content">
+                        <p>A loja meta foi criada no intuito de ajudar as pessoas a encontrar uma vida mais saudável e com um custo acessível,
+                             visando sempre o bem estar de todos os nossos clientes. Criada em 2022 e de lá 
+                             pra cá estivemos sempre trabalhando para conseguir satisfazer o interesse de todos , trabalhamos com o Delivery mais justo possível
+                             e sempre buscando a entrega mais 
+                             rápida para o cliente, localizada no Cohatrac e Turu, mas com frete para toda ilha!</p>
+                    </div>
+                </div><!--left box-->
+                <div class="center box">
+                    <h2>Endereço</h2>
+                    <div class="content">
+                        <div class="place">
+                            <span class="fas fa-map-marker"></span>
+                            <span class="text">São Luis, Brasil</span>
+                        </div>
+    
+                        <div class="phone">
+                            <span class="fas fas fa-phone-alt"></span>
+                            <span class="text">+55 98 98608-0351</span>
+                        </div>
+                        <div class="phone">
+                            <span class="fas fas fa-phone-alt"></span>
+                            <span class="text">+55 98 98437-0919</span>
+                        </div>
+    
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="right box">
+                    <h2>Contato</h2>
+                    <div class="content">
+                        <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text">metasuplementos00@hotmail.com</span>
+                        </div>
+                        <div class="instagram">
+                        </div>
+                        <div class="zap">
+                            <a class="instan" href="https://www.instagram.com/meta_slz/" target="_blank"><img class="wpp" id="insta" src="images/produtos/instagram.png" alt=""></a>                    
+                         </div> 
+                    </div>
+                </div>
+            </div><!--main-content-->
+
+            <div class="bottom">
+                <div class="center">
+                    <span class="credit">Criado por <a target="_blank" href="https://www.instagram.com/marcossvnc/">MRC.DEV</a></span>
+                    <span class="far fa-copyright">2023</span>
+                </div>
+            </div>
+        </footer>
+
+       
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seus Produtos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span class="han">R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra via whatsapp   <img class="whats" src="images/produtos/whatsapp.png" alt=""></div>
+            </div>
+            
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .pizzaWindowArea -->
+    <div class="pizzaWindowArea">
+        <div class="pizzaWindowBody">
+            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div class="pizzaBig">
+                <button id="prev-button"><img src="images/produtos/seta.png" alt="prev-button"></button>
+                <div class="container-images">
+                <img class="slider on" id="um" src="" />
+                <img class="slider" id="dois" src="" />
+            </div>
+                <button id="next-button"><img src="images/produtos/seta.png" alt="next-button"></button>
+            </div>
+            <div class="pizzaInfo">
+                <h1 class="nomi">balança nutritiva</h1>
+    
+                <div class="pizzaInfo--sizearea">
+                    <div class="pizzaInfo--sector">tamanhos Disponíveis</div>
+                    <div class="pizzaInfo--sizes">
+                        <div data-key="1" class="pizzaInfo--size"><span class="indef">--</span></div>
+                    </div>
+                </div>
+                
+                <div class="pizzaInfo--pricearea">
+                    <div class="pizzaInfo--sector">Preço</div>
+                    <div class="pizzaInfo--price">
+                        <div class="pizzaInfo--actualPrice">R$ --</div>
+                        <div class="pizzaInfo--qtarea">
+                            <button class="pizzaInfo--qtmenos">-</button>
+                            <div class="pizzaInfo--qt">1</div>
+                            <button class="pizzaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="pizzaInfo--cancelButton">Cancelar</div>
+                <div class="pizzaInfo--desc">--</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <!-- /janela modal .pizzaWindowArea -->
+    <script src="js/decimal.min.js"></script>
+    <script src="js/produtos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
